@@ -5,7 +5,7 @@ class library:
         lenddict = {}
 
     def displaybook(self):
-        print("we have following in our library:" + self.name)
+        print("we have following in our library:" +self.name)
         for book in self.booklist:
             print(book)
 
